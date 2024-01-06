@@ -1,0 +1,76 @@
+body
+{
+  background-color: #073d03;
+}
+ b
+{
+  position: absolute;
+   right: 45px;
+   top: 10px;
+}
+ l500
+{
+ color: #009cff;
+ font-size: 15px;
+ font-style: italic;
+ position: absolute;
+   left: 190px;
+   top: 20px;
+}
+ h2
+{
+ color: #80919e;
+ text-decoration: underline;
+ position: absolute;
+   left: 600px;
+   top: 155px;
+}
+ l1
+{ 
+ color: #69aebd;
+ width: 760px;
+ font-size: medium;
+ position: absolute;
+   left: 360px;
+   top: 230px;
+}
+ .Phrase:before
+{
+   content: url("images/Puce1.png");
+   position: relative;
+   right: 5px;
+}
+ l19
+{
+ position: absolute;
+   left: 450px;
+   top: 780px;
+}
+ l20
+{
+ color: #0a4504;
+ font-weight: bold;
+ text-decoration: underline;
+ position: absolute;
+   left: 500px;
+   top: 800px;
+}
+ l21
+{
+ color: #0d6113;
+ font-size: 13px;
+ font-weight: bold;
+ text-decoration: underline;
+ position: absolute;
+   left: 500px;
+   top: 830px;
+}
+ l22
+{
+ color: #36def2;
+ font-size: 13px;
+ font-weight: bold;
+ position: absolute;
+   left: 525px;
+   top: 890px;
+}

@@ -1,0 +1,4 @@
+ErrorDocument 404 /404.php
+AddType video/mp4  .mp4 
+RedirectPermanent /Francais2.php http://l-eclairmwa.olympe.in/Textes.php
+RedirectPermanent /Francais4.php http://l-eclairmwa.olympe.in/Photos.php

@@ -1,0 +1,93 @@
+body
+{
+  background-color: #021966;
+}
+ b
+{
+  position: absolute;
+   right: 45px;
+   top: 10px;
+}
+ l500
+{
+ color: #ffbe00;
+ font-size: 15px;
+ font-style: italic;
+ position: absolute;
+   left: 190px;
+   top: 20px;
+} 
+ h2
+{
+ color: #5d9435;
+ position: absolute;
+   left: 600px;
+   top: 155px;
+}
+ h4
+{
+ color: #0d7d7e;
+ text-decoration: underline;
+ position: absolute;
+   left: 380px;
+   top: 200px;
+}
+ l1
+{
+ color: #455420;
+ font-size: large;
+ position: absolute;
+   left: 110px;
+   top: 355px;
+}
+ a
+{
+ text-decoration: none;
+ color: #455420;
+}
+ a:hover
+{
+ text-decoration: underline;
+ color: #ffffff;
+}
+ .Phrase:before
+{
+   content: url("images/photo.png");
+   position: absolute;
+   left: 20px;
+   top: 315px;
+}
+ l19
+{
+ position: absolute;
+   left: 35%;
+   top: 84.4%;
+}
+ l20
+{
+ color: #0a4504;
+ font-weight: bold;
+ text-decoration: underline;
+ position: absolute;
+   left: 37.7%;
+   top: 86.7%;
+}
+ l21
+{
+ color: #0d6113;
+ font-size: 13px;
+ font-weight: bold;
+ text-decoration: underline;
+ position: absolute;
+   left: 37.7%;
+   top: 89.5%;
+}
+ l22
+{
+ color: #0d6113;
+ font-size: 13px;
+ font-weight: bold;
+ position: absolute;
+   left: 40%;
+   top: 96%;
+}

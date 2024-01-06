@@ -1,0 +1,155 @@
+body
+{
+  background-color: #073d03;
+}
+ l500
+{
+ color: #009cff;
+ font-size: 15px;
+ font-style: italic;
+ position: absolute;
+   left: 190px;
+   top: 20px;
+}
+ h2
+{
+ color: #44a246;
+ text-decoration: underline;
+ position: absolute;
+   left: 600px;
+   top: 155px;
+}
+ l0
+{
+ font-style: italic;
+}
+ l1
+{ 
+ color: #669966;
+ width: 760px;
+ font-size: medium;
+ position: absolute;
+   left: 360px;
+   top: 230px;
+}
+ .Phrase:before
+{
+   content: url("images/Puce1.png");
+   position: relative;
+   right: 5px;
+}
+ l2
+{ 
+ color: #669966;
+ width: 760px;
+ font-size: medium;
+ position: absolute;
+   left: 360px;
+   top: 265px;
+}
+ l3
+{ 
+ color: #669966;
+ width: 760px;
+ font-size: medium;
+ position: absolute;
+   left: 360px;
+   top: 360px;
+}
+ l4
+{ 
+ color: #669966;
+ width: 760px;
+ font-size: medium;
+ position: absolute;
+   left: 360px;
+   top: 395px;
+}
+ l5
+{ 
+ color: #669966;
+ width: 760px;
+ font-size: medium;
+ position: absolute;
+   left: 360px;
+   top: 425px;
+}
+ l6
+{ 
+ color: #669966;
+ width: 760px;
+ font-size: medium;
+ position: absolute;
+   left: 360px;
+   top: 495px;
+}
+ l7
+{ 
+ color: #669966;
+ width: 760px;
+ font-size: medium;
+ position: absolute;
+   left: 360px;
+   top: 565px;
+}
+ l8
+{ 
+ color: #669966;
+ width: 760px;
+ font-size: medium;
+ position: absolute;
+   left: 360px;
+   top: 600px;
+}
+ l9
+{ 
+ color: #669966;
+ width: 760px;
+ font-size: medium;
+ position: absolute;
+   left: 360px;
+   top: 695px;
+}
+ l10
+{ 
+ color: #669966;
+ width: 760px;
+ font-size: medium;
+ position: absolute;
+   left: 360px;
+   top: 750px;
+}
+ l19
+{
+ position: absolute;
+   left: 450px;
+   top: 880px;
+}
+ l20
+{
+ color: #0a4504;
+ font-weight: bold;
+ text-decoration: underline;
+ position: absolute;
+   left: 500px;
+   top: 900px;
+}
+ l21
+{
+ color: #0d6113;
+ font-size: 13px;
+ font-weight: bold;
+ text-decoration: underline;
+ position: absolute;
+   left: 500px;
+   top: 930px;
+}
+ l22
+{
+ color: #36def2;
+ font-size: 13px;
+ font-weight: bold;
+ position: absolute;
+   left: 525px;
+   top: 990px;
+}

@@ -1,0 +1,77 @@
+* { margin:0; padding:0; }
+body { background:#181818; font-family:Arial, Helvetica, sans-serif;}
+#wrapper {padding:1.25em;width:900px;}
+#wrapper pre { white-space:pre-wrap;}
+#wrapper p {margin-bottom:0.6em; }
+#wrapper h1 {font-size:2.5em;}
+/*	
+-------------------------------------------
+hfeed
+-------------------------------------------
+*/
+.hfeed h1, a { color:#e5011a; text-decoration:none;}
+a:hover { color:#000;}
+.hfeed h1 {font-size:1.8em; padding:0; text-transform:uppercase;}
+.hfeed .entry-content {}
+.hfeed .post-info {margin:0;}
+.hfeed .tags {margin:0 0 10px 0;}
+.hfeed .post-info .author, .hfeed .post-info .published { display:inline; padding-right:5px;}
+.hfeed .post-info .author:before { content:'Author ';}
+.hfeed .post-info .author:after { content:', ';}
+.hfeed .tags {padding:0;}
+.hfeed .tags:before { content:'Tags : ';}
+.hfeed .tags li { display:inline; padding-right:5px;}
+/*	
+-------------------------------------------
+div#navigation = COLOR
+-------------------------------------------
+*/
+ul#menu { background:#181818; border-bottom: 0px solid #181818;box-shadow: 0px 0px #181818;}
+
+ul#menu > li a {background: #027ea6; color:#fff;text-shadow: 0px -1px 1px #181818; }
+ul#menu li.hover > a, ul#menu li:hover > a, 
+ul#menu a.current, ul#menu a:hover, ul#menu a:focus {background: #689332;color: #fff; text-shadow:none;}
+ul#menu ul a {background:#fff;color:#000;font-size:70%; text-transform:none}
+
+/*	
+-------------------------------------------
+div#navigation = STYLES
+-------------------------------------------
+*/
+ul#menu {padding:2%;width:96%;}
+ul#menu li {list-style:none;}
+ul#menu > li { display:inline-block;line-height: 1.7em; margin-right:0.4em; position:relative; vertical-align:top;}
+ul#menu > li span + span {font-size:80%; padding-left:0.4em;}
+ul#menu li a {display:block;font-weight:bold;padding:0.4em 0.8em; position:relative; text-decoration:none;}
+ul#menu ul a:before { content:'› '; }
+ul#menu ul a { text-shadow:none;}
+
+ul#menu > li > a {border-radius: 0.4em;}
+ul#menu li.sub > a {border-radius: 0.4em 0.4em 0 0;}
+ul#menu ul, 
+ul#menu li li:last-child, 
+ul#menu li li:last-child a, 
+ul#menu li li:last-child a:hover {border-radius: 0 0 0.4em 0.4em}
+
+ul#menu.drop {padding:2% 2% 0;}
+ul#menu.drop > li > a {border-radius: 0.4em 0.4em 0 0;}
+ul#menu.drop li:hover > ul, ul#menu.drop li.hover > ul, ul#menu.drop li > a:focus + ul { left:0;}
+ul#menu.drop ul { left: -9999px; padding-top:0px;position: absolute;z-index:999;}
+ul#menu.drop ul a {width:10em;border-bottom:1px solid #dadada;border-left:1px solid #dadada;border-right:1px solid #dadada;}
+
+@media screen and (max-width:999px) {
+#wrapper {width:90%;}
+
+ul#menu.drop {padding:2%;}
+ul#menu.drop > li > a {border-radius: 0.4em;}
+ul#menu.drop li.sub > a {border-radius: 0.4em 0.4em 0 0;}
+ul#menu.drop ul, ul#menu.drop li:hover > ul, ul#menu.drop li.hover > ul { left:0;}
+ul#menu.drop ul { padding-top:0;position:relative;}
+ul#menu.drop ul a, ul#menu.drop ul li:last-child a { border-left:0; border-right:0!important;border-top:0!important;}
+ul#menu.drop ul li:first-child a {border-top:1px solid #dadada;}
+ul#menu.drop ul a {width:auto;}
+}
+
+@media screen and (max-width:540px) {
+ul#menu > li {display: block;margin-top:0.4em;}
+}

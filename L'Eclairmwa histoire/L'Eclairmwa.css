@@ -1,0 +1,60 @@
+body
+{
+  background-image: url("images/Fond/Fond3.jpg");
+  background-position: top;
+  background-attachment: scroll;
+  background-repeat: no-repeat;
+  background-color: #073d03;
+}
+ l1
+{
+ position: absolute;
+   left: 10px;
+   top: 50px;
+} 
+ l4
+{
+ position: absolute;
+   left: 10px;
+   top: 10px;
+} 
+ l56
+{
+ position: absolute;
+   left: 200px;
+   top: 250px;
+}
+ l19
+{
+ position: absolute;
+   left: 450px;
+   top: 780px;
+}
+ l20
+{
+ color: #0a4504;
+ font-weight: bold;
+ text-decoration: underline;
+ position: absolute;
+   left: 500px;
+   top: 800px;
+}
+ l21
+{
+ color: #0d6113;
+ font-size: 13px;
+ font-weight: bold;
+ text-decoration: underline;
+ position: absolute;
+   left: 500px;
+   top: 830px;
+}
+ l22
+{
+ color: #ffffff;
+ font-size: 13px;
+ font-weight: bold;
+ position: absolute;
+   left: 525px;
+   top: 890px;
+}

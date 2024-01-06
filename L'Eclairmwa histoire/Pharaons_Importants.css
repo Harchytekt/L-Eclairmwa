@@ -1,0 +1,122 @@
+body
+{
+  background-color: #073d02;
+}
+ b
+{
+  position: absolute;
+   right: 45px;
+   top: 10px;
+}
+ l500
+{
+ color: #009cff;
+ font-size: 15px;
+ font-style: italic;
+ position: absolute;
+   left: 190px;
+   top: 20px;
+}
+ h4
+{
+ color: #181818;
+ text-decoration: underline;
+ position: absolute;
+   left: 200px;
+   top: 150px;
+} 
+ a
+{
+ text-decoration: none;
+ color: white;
+}
+ a:hover
+{
+ text-decoration: underline;
+ color: #f35119;
+}
+ l0
+{ 
+ color: #801515;
+ font-size: 18px;
+}
+ l1
+{
+ color: #92550c;
+ position: absolute;
+   left: 250px;
+   top: 210px;
+}
+ .Ancres
+{ 
+ position: relative;
+   left: 250px;
+   top: 190px;
+}
+ .Empires
+{
+ color: #d70000;
+ text-decoration: underline;
+ font-size: 17px;
+ position: relative;
+   left: 250px;
+   top: 190px;
+}
+ .Intro
+{
+ color: #318CE7;
+ width: 1000px;
+ position: relative;
+   left: 250px;
+   top: 195px;
+}
+ .Pharaons
+{
+ color: yellow;
+ width: 1000px;
+ position: relative;
+   left: 250px;
+   top: 200px;
+}
+ .Bio
+{
+ color: #669966;
+ width: 1000px;
+ position: relative;
+   left: 250px;
+   top: 195px;
+}
+ l22
+{
+ position: absolute;
+   left: 450px;
+   top: 3080px;
+}
+ l19
+{
+ color: #0a4504;
+ font-weight: bold;
+ text-decoration: underline;
+ position: absolute;
+   left: 500px;
+   top: 3100px;
+}
+ l21
+{
+ color: #0d6113;
+ font-size: 13px;
+ font-weight: bold;
+ text-decoration: underline;
+ position: absolute;
+   left: 500px;
+   top: 3130px;
+}
+ l20
+{
+ color: #36def2;
+ font-size: 13px;
+ font-weight: bold;
+ position: absolute;
+   left: 525px;
+   top: 3190px;
+}

@@ -1,0 +1,85 @@
+<!DOCTYPE HTML>
+<html lang="fr" dir="ltr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=false;">
+<title>Menu déroulant HTML/CSS dropdown menu - Media queries</title>
+<link href="style.css" rel="stylesheet" type="text/css" media="screen">
+<!--[if lt IE 9]><script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+<!--[if IE 7]><link rel="stylesheet" type="text/css" href="style-ie7.css"><![endif]-->
+</head>
+<body>
+
+<!-- Begin #navigation-->
+<nav id="navigation" role="navigation">
+  <ul id="menu" role="menubar">
+    <li><a href="http://histoire.localhost" title="Aller dans la section Histoire"><span>Histoire</span></a></li><li class="sub">
+	<a href="#" title=""><span>Photo</span></a>
+      <ul>
+        <li><a href="/Dessins_Fantasy.php" title="Voir les dessins de style Fantasy"><span>Dessins de style Fantasy</span></a></li>
+      </ul>
+	<li class="sub"><a href="#" title=""><span>Textes</span></a>
+      <ul>
+        <li><a href="/Resume_MM.php" title="Accéder au résumé de Meurtre à Morville"><span>Résumé de Meurtre à Morville</span></a></li>
+        <li><a href="/Meurtre_a_Morville.php" title="Accéder à la pièce de théâtre"><span>"Meurtre à Morville"</span></a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+<!-- End #navigation-->
+
+<script type="text/javascript">
+$(document).ready(function(){
+	var timedrop = 2000;
+	var idMenu = 'ul#menu';
+	var classHover = 'hover';
+	var texteSub = "";
+	var arrowfff = "<span>▼</span>";
+	
+	if((idMenu)) {
+	// Ajoute la class .drop lorsque le JS est activé
+	$(idMenu).addClass('drop'); 
+	// Ajoute un span (fleche) lorsqu'il y a un sous menu et change le lien
+	$("li.sub > a",idMenu).text(function () {
+        $(this).replaceWith('<a href="" title="	' + texteSub + $(this).text() + '"><span>' + $(this).text() + '</span> '+arrowfff+'</a> '); 
+	});
+	// On parcours les liens du menu
+	$('li a',idMenu).each(function () {
+		// 
+		var menuParent = $(this).closest('ul').parent();
+		// le cursor est sur l'élément
+		$(this).bind("mouseenter focus", function () {
+			$(this).addClass( classHover );
+			$(menuParent).addClass( classHover );
+		// le cursor n'est plus sur l'élément
+		}).bind("mouseleave blur", function () {
+			$(this).removeClass( classHover );
+			//
+			if (!$('.'+classHover, menuParent).length) {
+				// Retardement pour que le sous-menu disparaisse > 2000 = 2sec
+				setTimeout(function(){
+					$(menuParent).removeClass( classHover );
+				},timedrop);
+			}
+		});
+	});//end
+	
+	// ctrl + shift pour avoir le focus sur le premier item du menu
+	$(document).keyup(function (e) {
+	if(e.which == 17) isCtrl=false;
+	}).keydown(function (e) {
+		if(e.which == 17) isCtrl=true;
+		if(e.which == 16 && isCtrl == true) {
+			var Item = $(" > li:first-child a", idMenu);
+			var titleItem = $(Item).attr('title');
+				$(Item).addClass( classHover ).focus();
+	 	}
+	});
+	
+	}
+	
+});
+</script>
+</body>
+</html>

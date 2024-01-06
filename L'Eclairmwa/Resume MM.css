@@ -1,0 +1,95 @@
+body
+{
+  background-color: #021966;
+}
+ l500
+{
+ color: #ffbe00;
+ font-size: 15px;
+ font-style: italic;
+ position: absolute;
+   left: 190px;
+   top: 20px;
+} 
+ a
+{
+ text-decoration: none;
+ color: #103d7b;
+}
+ a:hover
+{
+ text-decoration: underline;
+ color: white;
+}
+ b
+{
+  position: absolute;
+   right: 45px;
+   top: 10px;
+}
+ h1
+{
+ position: absolute;
+   left: 200px;
+   top: 150px;
+}
+ l
+{
+ color: #f50707;
+ font-size: medium;
+ font-style: italic;
+ width: 550px;
+ position: absolute;
+   left: 550px;
+   top: 300px;
+}
+ l1
+{
+ color: #f50707;
+ font-size: medium;
+ font-style: italic;
+ width: 550px;
+ position: absolute;
+   left: 550px;
+   top: 400px;
+}
+ object
+{
+   position: absolute;
+   left: 200px;
+   top: 22px;
+}
+ l19
+{
+ position: absolute;
+   left: 35%;
+   top: 84.4%;
+}
+ l20
+{
+ color: #0a4504;
+ font-weight: bold;
+ text-decoration: underline;
+ position: absolute;
+   left: 37.7%;
+   top: 86.7%;
+}
+ l21
+{
+ color: #0d6113;
+ font-size: 13px;
+ font-weight: bold;
+ text-decoration: underline;
+ position: absolute;
+   left: 37.7%;
+   top: 89.5%;
+}
+ l22
+{
+ color: #0d6113;
+ font-size: 13px;
+ font-weight: bold;
+ position: absolute;
+   left: 40%;
+   top: 96%;
+}

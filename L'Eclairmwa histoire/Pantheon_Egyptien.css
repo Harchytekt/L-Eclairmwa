@@ -1,0 +1,86 @@
+body
+{
+  background-color: #073d03;
+}
+ l500
+{
+ color: #009cff;
+ font-size: 15px;
+ font-style: italic;
+ position: absolute;
+   left: 190px;
+   top: 20px;
+} 
+ a
+{
+ text-decoration: none;
+ color: #103d7b;
+}
+ a:hover
+{
+ text-decoration: underline;
+ color: white;
+} 
+table
+{
+   border-collapse: collapse;
+   background-color: #0d5138;
+}
+td, th /* Mettre une bordure sur les td ET les th */
+{
+   border: 1px solid black;
+   border-color: #af320b;
+}
+ l546
+{
+   font-weight: bold;
+}
+ l456
+{
+   font-style: italic;
+   color: #8e7c19;
+}
+ l56565656
+{
+ text-decoration: none;
+}
+ l888
+{
+ position: absolute;
+   left: 5px;
+   top: 80px;
+}
+ l19
+{
+ position: absolute;
+   left: 450px;
+   top: 2000px;
+}
+ l20
+{
+ color: #0a4504;
+ font-weight: bold;
+ text-decoration: underline;
+ position: absolute;
+   left: 500px;
+   top: 2020px;
+}
+ l21
+{
+ color: #0d6113;
+ font-size: 13px;
+ font-weight: bold;
+ text-decoration: underline;
+ position: absolute;
+   left: 500px;
+   top: 2050px;
+}
+ l22
+{
+ color: #36def2;
+ font-size: 13px;
+ font-weight: bold;
+ position: absolute;
+   left: 525px;
+   top: 2105px;
+}

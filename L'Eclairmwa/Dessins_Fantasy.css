@@ -1,0 +1,69 @@
+body
+{
+  background-color: #021966;
+}
+ l500
+{
+ color: #ffbe00;
+ font-size: 15px;
+ font-style: italic;
+ position: absolute;
+   left: 190px;
+   top: 20px;
+}
+ b
+{
+  position: absolute;
+   right: 45px;
+   top: 10px;
+}
+ m
+{
+ position: absolute;
+   left: 200px;
+   top: 100px;
+}
+ a
+{
+ text-decoration: none;
+ color: #103d7b;
+}
+ a:hover
+{
+ text-decoration: underline;
+ color: white;
+} 
+ l19
+{
+ position: absolute;
+   left: 55%;
+   top: 84.4%;
+}
+ l20
+{
+ color: #0a4504;
+ font-weight: bold;
+ text-decoration: underline;
+ position: absolute;
+   left: 57.7%;
+   top: 86.7%;
+}
+ l21
+{
+ color: #0d6113;
+ font-size: 13px;
+ font-weight: bold;
+ text-decoration: underline;
+ position: absolute;
+   left: 57.7%;
+   top: 89.5%;
+}
+ l22
+{
+ color: #0d6113;
+ font-size: 13px;
+ font-weight: bold;
+ position: absolute;
+   left: 60%;
+   top: 96%;
+}

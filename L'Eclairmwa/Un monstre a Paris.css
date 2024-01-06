@@ -1,0 +1,103 @@
+body
+{
+  background-color: #021966;
+}
+ l500
+{
+ color: #ffbe00;
+ font-size: 15px;
+ font-style: italic;
+ position: absolute;
+   left: 190px;
+   top: 20px;
+}
+ b
+{
+  position: absolute;
+   right: 45px;
+   top: 10px;
+}
+ l897
+{
+ position: absolute;
+   left: 955px;
+   top: 10px;
+}
+ l1
+{
+ color: #906a0f;
+ width: 1000px;
+ position: absolute;
+   left: 250px;
+   top: 250px;
+}
+ l2
+{
+ width: 1000px;
+ color: #db4e09;
+ position: absolute;
+   left: 200px;
+   top: 315px;
+}
+ l3
+{
+ width: 1000px;
+ color: #95600c;
+ position: absolute;
+   left: 300px;
+   top: 390px;
+}
+ l5
+{
+ position: absolute;
+   left: 265px;
+   top: -3px;
+}
+ l6
+{
+ width: 1000px;
+ color: #be1919;
+ position: absolute;
+   left: 300px;
+   top: 460px;
+}
+ l090
+{
+ position: absolute;
+   right: 55px;
+   top: 800px;
+}
+ l19
+{
+ position: absolute;
+   left: 35%;
+   top: 84.4%;
+}
+ l20
+{
+ color: #0a4504;
+ font-weight: bold;
+ text-decoration: underline;
+ position: absolute;
+   left: 37.7%;
+   top: 86.7%;
+}
+ l21
+{
+ color: #0d6113;
+ font-size: 13px;
+ font-weight: bold;
+ text-decoration: underline;
+ position: absolute;
+   left: 37.7%;
+   top: 89.5%;
+}
+ l22
+{
+ color: #0d6113;
+ font-size: 13px;
+ font-weight: bold;
+ position: absolute;
+   left: 40%;
+   top: 96%;
+}

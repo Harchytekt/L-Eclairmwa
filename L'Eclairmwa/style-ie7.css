@@ -1,0 +1,5 @@
+ul#menu > li {
+   zoom: 1;
+   display: inline;
+}
+ul#menu > li span + span {float:none;}

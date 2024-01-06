@@ -1,0 +1,90 @@
+body
+{
+  background-color: #021966;
+}
+header
+{
+ position: absolute;
+   left: 0.6%;
+   top: 1%;
+}
+ l500
+{
+ color: #ffbe00;
+ font-size: 1em;
+ font-style: italic;
+} 
+ h2
+{
+ color: #006633;
+ position: absolute;
+   left: 35.7%;
+   top: 16.8%;
+}
+ h4
+{
+ color: #0d7d7e;
+ text-decoration: underline;
+ position: absolute;
+   left: 19.65%;
+   top: 21.55%;
+}
+ l1
+{
+ color: #984304;
+ font-size: large;
+ position: absolute;
+   left: 4.45%;
+   top: 38.4%;
+}
+ a
+{
+ text-decoration: none;
+ color: #984304;
+}
+ a:hover
+{
+ text-decoration: underline;
+ color: #ffffff;
+}
+ .Phrase:before
+{
+   content: url("images/plume.png");
+   position: absolute;
+   left: 1.2%;
+   top: 32.45%;
+}
+ l19
+{
+ position: absolute;
+   left: 35%;
+   top: 84.4%;
+}
+ l20
+{
+ color: #0a4504;
+ font-weight: bold;
+ text-decoration: underline;
+ position: absolute;
+   left: 37.7%;
+   top: 86.7%;
+}
+ l21
+{
+ color: #0d6113;
+ font-size: 13px;
+ font-weight: bold;
+ text-decoration: underline;
+ position: absolute;
+   left: 37.7%;
+   top: 89.5%;
+}
+ l22
+{
+ color: #0d6113;
+ font-size: 13px;
+ font-weight: bold;
+ position: absolute;
+   left: 40%;
+   top: 96%;
+}
